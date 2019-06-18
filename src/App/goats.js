@@ -1,0 +1,55 @@
+
+const goats = [
+  {
+    id: 'goat1',
+    name: 'Billy',
+    disposition: 'rude',
+    imgUrl: 'https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_20120702-1848_16x9.jpg?itok=embMTBY2',
+    fullness: 67,
+    favPose: 'downward facing dog',
+    isFainting: true,
+    color: 'white',
+  },
+  {
+    id: 'goat2',
+    name: 'Roger',
+    disposition: 'pleasant',
+    imgUrl: 'https://www.https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg.org/sites/default/files/styles/article_main_large/public/cc_20120702-1848_16x9.jpg?itok=embMTBY2',
+    fullness: 32,
+    favPose: 'sun salutation',
+    isFainting: true,
+    color: 'brown',
+  },
+  {
+    id: 'goat3',
+    name: 'Mordecai',
+    disposition: 'stretchy',
+    imgUrl: 'https://www.https://ichef.bbci.co.uk/news/660/cpsprodpb/12E1C/production/_103204377_mediaitem103204376.jpg.org/sites/default/files/styles/article_main_large/public/cc_20120702-1848_16x9.jpg?itok=embMTBY2',
+    fullness: 11,
+    favPose: 'dhalsim quarter circle forward',
+    isFainting: false,
+    color: 'white',
+  },
+  {
+    id: 'goat4',
+    name: 'Gubbo',
+    disposition: 'well worn',
+    imgUrl: 'https://www.sciencemag.org/https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-asia.com/headlines/markets/getting-the-goat-australia-struggling-to-meet-soaring-demand-for-goat-meat/9022285-1-eng-GB/Getting-the-goat-Australia-struggling-to-meet-soaring-demand-for-goat-meat_wrbm_large.jpg/default/files/styles/article_main_large/public/cc_20120702-1848_16x9.jpg?itok=embMTBY2',
+    fullness: 97,
+    favPose: 'none',
+    isFainting: false,
+    color: 'white',
+  },
+  {
+    id: 'goat5',
+    name: 'Name Chud',
+    disposition: 'chunky',
+    imgUrl: 'https://www.sciencemag.org/sites/https://3sn4dm1qd6i72l8a4r2ig7fl-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/nubiangoat_sage_ZA_0256-750x500.jpg/files/styles/article_main_large/public/cc_20120702-1848_16x9.jpg?itok=embMTBY2',
+    fullness: 48,
+    favPose: 'slurping aardvark',
+    isFainting: true,
+    color: 'brown',
+  },
+];
+
+export default goats;
