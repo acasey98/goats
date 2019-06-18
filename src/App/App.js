@@ -1,27 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import goats from './goats';
+
 import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <button className="btn btn-warning">goats butto</button>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  state = {
+    goats: [],
+  }
+
+  componentDidMount() {
+    this.setState({ goats });
+  }
+
+  render() {
+    // eslint-disable-next-line arrow-body-style
+    const hello2 = () => {
+      return 'hello again';
+    };
+    return (
+      <div className="App">
+        <div>Goat Yoga</div>
+        {/* <GoatCorral goats={goats}/> */}
+      </div>
+    );
+  }
 }
 
 export default App;
